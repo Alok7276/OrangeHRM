@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Orange HRM Test Suite" duration-ms="119402" started-at="2021-07-06T04:16:36Z" finished-at="2021-07-06T04:18:36Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="119402" started-at="2021-07-06T04:16:36Z" finished-at="2021-07-06T04:18:36Z">
+      <class name="test.VacancyHomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13600" started-at="2021-07-06T09:47:17Z" finished-at="2021-07-06T09:47:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1469" started-at="2021-07-06T09:47:31Z" data-provider="getVacancyData" finished-at="2021-07-06T09:47:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Account Assistant]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Srishti]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Odis Adalwin]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVacancyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="616" started-at="2021-07-06T09:47:32Z" finished-at="2021-07-06T09:47:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13511" started-at="2021-07-06T09:47:33Z" finished-at="2021-07-06T09:47:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1468" started-at="2021-07-06T09:47:46Z" data-provider="getVacancyData" finished-at="2021-07-06T09:47:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chief Executive Officer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Ashish]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Orange Test]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVacancyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="628" started-at="2021-07-06T09:47:48Z" finished-at="2021-07-06T09:47:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13866" started-at="2021-07-06T09:47:48Z" finished-at="2021-07-06T09:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1466" started-at="2021-07-06T09:48:02Z" data-provider="getVacancyData" finished-at="2021-07-06T09:48:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Head of Support]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Deep]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Peter Mac Anderson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVacancyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="634" started-at="2021-07-06T09:48:04Z" finished-at="2021-07-06T09:48:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13048" started-at="2021-07-06T09:48:04Z" finished-at="2021-07-06T09:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1575" started-at="2021-07-06T09:48:17Z" data-provider="getVacancyData" finished-at="2021-07-06T09:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chief Financial Officer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Daffodil]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Linda Jane Anderson]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVacancyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="618" started-at="2021-07-06T09:48:19Z" finished-at="2021-07-06T09:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13708" started-at="2021-07-06T09:48:20Z" finished-at="2021-07-06T09:48:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1598" started-at="2021-07-06T09:48:33Z" data-provider="getVacancyData" finished-at="2021-07-06T09:48:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Content Specialist]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Manoj]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Paul Collings]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createVacancyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="624" started-at="2021-07-06T09:48:35Z" finished-at="2021-07-06T09:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.VacancyHomePageTest -->
+      <class name="test.UserPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.UserPageTest@7e0e6aa2]" name="setup" is-config="true" duration-ms="13775" started-at="2021-07-06T09:46:55Z" finished-at="2021-07-06T09:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addUserTest()[pri:0, instance:test.UserPageTest@7e0e6aa2]" name="addUserTest" duration-ms="6809" started-at="2021-07-06T09:47:09Z" finished-at="2021-07-06T09:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addUserTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.UserPageTest@7e0e6aa2]" name="tearDown" is-config="true" duration-ms="650" started-at="2021-07-06T09:47:16Z" finished-at="2021-07-06T09:47:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.UserPageTest -->
+      <class name="test.PimPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.PimPageTest@12c8a2c0]" name="setup" is-config="true" duration-ms="16366" started-at="2021-07-06T09:46:36Z" finished-at="2021-07-06T09:46:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addEmployeeTest()[pri:0, instance:test.PimPageTest@12c8a2c0]" name="addEmployeeTest" duration-ms="1863" started-at="2021-07-06T09:46:53Z" finished-at="2021-07-06T09:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.PimPageTest@12c8a2c0]" name="tearDown" is-config="true" duration-ms="627" started-at="2021-07-06T09:46:54Z" finished-at="2021-07-06T09:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.PimPageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Orange HRM Test Suite -->
+</testng-results>
