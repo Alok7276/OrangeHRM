@@ -1,211 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Orange HRM Test Suite" duration-ms="119402" started-at="2021-07-06T04:16:36Z" finished-at="2021-07-06T04:18:36Z">
+  <suite name="Default suite" duration-ms="79261" started-at="2022-12-26T22:41:55 IST" finished-at="2022-12-26T22:43:14 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="119402" started-at="2021-07-06T04:16:36Z" finished-at="2021-07-06T04:18:36Z">
-      <class name="test.VacancyHomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13600" started-at="2021-07-06T09:47:17Z" finished-at="2021-07-06T09:47:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1469" started-at="2021-07-06T09:47:31Z" data-provider="getVacancyData" finished-at="2021-07-06T09:47:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Account Assistant]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Srishti]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Odis Adalwin]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createVacancyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="616" started-at="2021-07-06T09:47:32Z" finished-at="2021-07-06T09:47:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13511" started-at="2021-07-06T09:47:33Z" finished-at="2021-07-06T09:47:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1468" started-at="2021-07-06T09:47:46Z" data-provider="getVacancyData" finished-at="2021-07-06T09:47:48Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chief Executive Officer]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Ashish]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Orange Test]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createVacancyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="628" started-at="2021-07-06T09:47:48Z" finished-at="2021-07-06T09:47:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13866" started-at="2021-07-06T09:47:48Z" finished-at="2021-07-06T09:48:02Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1466" started-at="2021-07-06T09:48:02Z" data-provider="getVacancyData" finished-at="2021-07-06T09:48:04Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Head of Support]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Deep]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Peter Mac Anderson]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createVacancyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="634" started-at="2021-07-06T09:48:04Z" finished-at="2021-07-06T09:48:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13048" started-at="2021-07-06T09:48:04Z" finished-at="2021-07-06T09:48:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1575" started-at="2021-07-06T09:48:17Z" data-provider="getVacancyData" finished-at="2021-07-06T09:48:19Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chief Financial Officer]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Daffodil]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Linda Jane Anderson]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createVacancyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="618" started-at="2021-07-06T09:48:19Z" finished-at="2021-07-06T09:48:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="setUp" is-config="true" duration-ms="13708" started-at="2021-07-06T09:48:20Z" finished-at="2021-07-06T09:48:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="createVacancyTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="createVacancyTest" duration-ms="1598" started-at="2021-07-06T09:48:33Z" data-provider="getVacancyData" finished-at="2021-07-06T09:48:35Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Content Specialist]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Manoj]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Paul Collings]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[7]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createVacancyTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.VacancyHomePageTest@365185bd]" name="tearDown" is-config="true" duration-ms="624" started-at="2021-07-06T09:48:35Z" finished-at="2021-07-06T09:48:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- test.VacancyHomePageTest -->
-      <class name="test.UserPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.UserPageTest@7e0e6aa2]" name="setup" is-config="true" duration-ms="13775" started-at="2021-07-06T09:46:55Z" finished-at="2021-07-06T09:47:09Z">
+    <test name="Default test" duration-ms="79261" started-at="2022-12-26T22:41:55 IST" finished-at="2022-12-26T22:43:14 IST">
+      <class name="test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@2353b3e6]" name="setup" is-config="true" duration-ms="20859" started-at="2022-12-26T22:41:55 IST" finished-at="2022-12-26T22:42:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addUserTest()[pri:0, instance:test.UserPageTest@7e0e6aa2]" name="addUserTest" duration-ms="6809" started-at="2021-07-06T09:47:09Z" finished-at="2021-07-06T09:47:16Z">
+        <test-method status="FAIL" signature="logoTest()[pri:1, instance:test.LoginTest@2353b3e6]" name="logoTest" duration-ms="30077" started-at="2022-12-26T22:42:16 IST" finished-at="2022-12-26T22:42:46 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/webres_6051af48107ce6.31500353/themes/default/images/login/logo.png']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP-PC', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:49938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb8984f9f177acd46a19e75d2e67b7ca
+*** Element info: {Using=xpath, value=//img[@src='/webres_6051af48107ce6.31500353/themes/default/images/login/logo.png']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//img[@src='/webres_6051af48107ce6.31500353/themes/default/images/login/logo.png']"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP-PC', ip: '192.168.1.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:49938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb8984f9f177acd46a19e75d2e67b7ca
+*** Element info: {Using=xpath, value=//img[@src='/webres_6051af48107ce6.31500353/themes/default/images/login/logo.png']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.isDisplayed(Unknown Source)
+at Page.LoginPage.LoginLogo(LoginPage.java:40)
+at test.LoginTest.logoTest(LoginTest.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addUserTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.UserPageTest@7e0e6aa2]" name="tearDown" is-config="true" duration-ms="650" started-at="2021-07-06T09:47:16Z" finished-at="2021-07-06T09:47:16Z">
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@2353b3e6]" name="tearDown" is-config="true" duration-ms="864" started-at="2022-12-26T22:42:46 IST" finished-at="2022-12-26T22:42:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.UserPageTest -->
-      <class name="test.PimPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:test.PimPageTest@12c8a2c0]" name="setup" is-config="true" duration-ms="16366" started-at="2021-07-06T09:46:36Z" finished-at="2021-07-06T09:46:53Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@2353b3e6]" name="setup" is-config="true" duration-ms="12704" started-at="2022-12-26T22:42:47 IST" finished-at="2022-12-26T22:43:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="addEmployeeTest()[pri:0, instance:test.PimPageTest@12c8a2c0]" name="addEmployeeTest" duration-ms="1863" started-at="2021-07-06T09:46:53Z" finished-at="2021-07-06T09:46:54Z">
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:2, instance:test.LoginTest@2353b3e6]" name="loginPageTitleTest" duration-ms="16" started-at="2022-12-26T22:43:00 IST" finished-at="2022-12-26T22:43:00 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addEmployeeTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.PimPageTest@12c8a2c0]" name="tearDown" is-config="true" duration-ms="627" started-at="2021-07-06T09:46:54Z" finished-at="2021-07-06T09:46:55Z">
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@2353b3e6]" name="tearDown" is-config="true" duration-ms="713" started-at="2022-12-26T22:43:00 IST" finished-at="2022-12-26T22:43:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- test.PimPageTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Orange HRM Test Suite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.LoginTest@2353b3e6]" name="setup" is-config="true" duration-ms="11466" started-at="2022-12-26T22:43:00 IST" finished-at="2022-12-26T22:43:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="doLoginTest()[pri:3, instance:test.LoginTest@2353b3e6]" name="doLoginTest" duration-ms="1779" started-at="2022-12-26T22:43:12 IST" finished-at="2022-12-26T22:43:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.LoginTest@2353b3e6]" name="tearDown" is-config="true" duration-ms="703" started-at="2022-12-26T22:43:14 IST" finished-at="2022-12-26T22:43:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

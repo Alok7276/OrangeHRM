@@ -8,16 +8,16 @@ import org.openqa.selenium.support.PageFactory;
 import Base.BasePage;
 
 public class LoginPage extends BasePage {
-	@FindBy(id = "txtUsername")
+	@FindBy(name = "username")
 	private WebElement username;
 
-	@FindBy(id = "txtPassword")
+	@FindBy(name = "password")
 	private WebElement password;
 
 	@FindBy(xpath = "//img[@src='/webres_6051af48107ce6.31500353/themes/default/images/login/logo.png']")
 	private WebElement Logo;
 	
-	@FindBy(xpath = "//input[@name='Submit']")
+	@FindBy(xpath = "//button[@type='submit']")
 	private WebElement Login;
 	@FindBy(id="welcome")
 	private WebElement welcome;
